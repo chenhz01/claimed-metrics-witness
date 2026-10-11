@@ -4,6 +4,8 @@ A three-state honesty ledger for project metrics: every claim is `self-claimed`,
 
 **Confidence: High (≥80%)** for the tamper-evidence property — the hash chain is recomputed by `audit()`, and self_test B6 proves an edited entry is caught. **Confidence: Medium (60–79%)** that teams sustain the discipline over time; the tool makes honesty cheap, not inevitable.
 
+<p align="center"><img src="docs/demo.gif" alt="demo" width="720"></p>
+
 ## Problem
 
 README performance numbers decay quietly. A benchmark gets re-run on new hardware, an over-eager figure survives review, and six months later nobody remembers which numbers were ever real. Vector databases and dev tools repeatedly ship claims that later get walked back — but the walk-back is a buried commit, not structured data.
